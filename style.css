@@ -2,8 +2,16 @@ body{
 	margin-top: 28px;
 }
 
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: #3957A3;
+}
+
 .mainFontSize{
-	font-size: 12px;
+	font-size: 13px;
 }
 .background-blue {
 	background-color: #EDEFF4;
@@ -14,19 +22,52 @@ body{
 	color: #3957A3;
 }
 
-.standardFontSize{
-	font-size: 10px;
+.font-grey{
+	color: #9C9999;
 }
 
-img{
+.standardFontSize{
+	font-size: 11px;
+}
+
+.downArrow{
+	height: 8px;
+	width: 8px;
+	border: solid 1px #d9d9d9;
+	padding: 4.5px;
+}
+
+.commentBoost__image{
+	height: 10px;
+	width: 10px;
+	margin-left: 5px;
+}
+
+.commentImage{
 	width: 32px;
 	height: 32px;
 	margin-right: 10px;
 }
 
-img.mainImage{
+.mainImage{
 	width: 50px;
 	height: 50px;
+	margin-right: 10px;
+}
+
+.thumbImage{
+	height: 14px;
+	width: 14px;
+	margin-right: 8px;
+}
+
+.glodeImage{
+	height: 11px;
+	width: 11px;
+}
+
+.dot{
+	margin: 0 2px;
 }
 
 .commentContainer{
@@ -41,14 +82,14 @@ img.mainImage{
 .commentMain{
 	display: flex;
 	flex-direction: column;
-	height: 93px;
-	padding: 17px 20px 20px 20px;
+	height: 90px;
+	padding: 14px 20px 14px 20px;
 }
 
 .commentMain__top{
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 12px;
+	padding-bottom: 11px;
 }
 
 .commentContent{
@@ -79,29 +120,32 @@ img.mainImage{
 .commentMain__bottom{
 	display: flex;
 	flex-direction: row;
-	padding-top: 14px;
+	padding-top: 10px;
 	border-top: solid 1px #ECECEC;
 }
 
 .commentLinks{
 	display: flex;
-	height: 13px;
-	padding: 6px 12px;
+	height: 14px;
+	padding: 5px 12px;
 }
 
 .commentLikes{
 	display: flex;
-	height: 13px;
-	padding: 6px 12px;
+	height: 14px;
+	padding: 5px 12px;
 }
 
 .commentMessage{
 	display: flex;
 	height: 28px;
-	padding: 6px 12px;
+	padding: 5px 12px 8px;
 }
 
 .commentMessage__content{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 	width: 100%;
 
 }
@@ -138,17 +182,16 @@ img.mainImage{
 }
 
 .commentResponse input{
-	height: 20px;
+	height: 16px;
 	width: 500px;
 }
 
 .commentFooter{
 	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	height: 28px;
-	padding: 0 15px;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 22px;
+    padding: 5px 15px 0;
 }
 
 .commentViews{
