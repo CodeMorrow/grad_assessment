@@ -1,17 +1,21 @@
+body{
+	margin-top: 28px;
+}
+
 .mainFontSize{
-	font-size: 16px;
+	font-size: 12px;
 }
 .background-blue {
 	background-color: #EDEFF4;
 	margin: 0.5px 3px;
 }
 
-.font-blue {
+.font-blue{
 	color: #3957A3;
 }
 
 .standardFontSize{
-	font-size: 12px;
+	font-size: 10px;
 }
 
 img{
@@ -26,6 +30,7 @@ img.mainImage{
 }
 
 .commentContainer{
+	font-family: "Lucida Grande";
 	display: flex;
 	flex-direction: column;
 	width: 570px;
@@ -47,16 +52,19 @@ img.mainImage{
 }
 
 .commentContent{
-
+	display: flex;
+	justify-content: center;
+    flex-direction: column;
 }
 
 .commentAuthor{
 	display: flex;
 	flex-direction: row;
-
+	align-items: center;
 }
 
 .CommentAuthor__name{
+	font-weight: bold;
 
 }
 
@@ -111,6 +119,7 @@ img.mainImage{
 
 .commentMessage__authorName{
 	white-space: nowrap;
+	font-weight: bold;
 }
 
 .commentMessage__comment{
