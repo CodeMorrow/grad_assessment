@@ -3,7 +3,7 @@
 }
 .background-blue {
 	background-color: #EDEFF4;
-	margin: 1px;
+	margin: 0.5px 3px;
 }
 
 .font-blue {
@@ -46,7 +46,13 @@ img.mainImage{
 	padding-bottom: 12px;
 }
 
+.commentContent{
+
+}
+
 .commentAuthor{
+	display: flex;
+	flex-direction: row;
 
 }
 
