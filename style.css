@@ -1,6 +1,14 @@
 .mainFontSize{
 	font-size: 16px;
 }
+.background-blue {
+	background-color: #EDEFF4;
+	margin: 1px;
+}
+
+.font-blue {
+	color: #3957A3;
+}
 
 .standardFontSize{
 	font-size: 12px;
@@ -9,6 +17,7 @@
 img{
 	width: 32px;
 	height: 32px;
+	margin-right: 10px;
 }
 
 img.mainImage{
@@ -20,18 +29,21 @@ img.mainImage{
 	display: flex;
 	flex-direction: column;
 	width: 570px;
+	border: solid 1px #CFD6E6;
+	border-radius: 5px;
 }
 
 .commentMain{
 	display: flex;
 	flex-direction: column;
-	height: 120px;
-	outline: solid 1px grey;
-
+	height: 93px;
+	padding: 17px 20px 20px 20px;
 }
 
 .commentMain__top{
-
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 12px;
 }
 
 .commentAuthor{
@@ -51,40 +63,53 @@ img.mainImage{
 }
 
 .commentMain__bottom{
-
+	display: flex;
+	flex-direction: row;
+	padding-top: 14px;
+	border-top: solid 1px #ECECEC;
 }
 
 .commentLinks{
 	display: flex;
-	height: 25px;
-	outline: solid 1px grey;
-
+	height: 13px;
+	padding: 6px 12px;
 }
 
 .commentLikes{
 	display: flex;
-	height: 25px;
-	outline: solid 1px grey;
+	height: 13px;
+	padding: 6px 12px;
 }
 
 .commentMessage{
 	display: flex;
-	height: 40px;
-	outline: solid 1px grey;
-
+	height: 28px;
+	padding: 6px 12px;
 }
 
 .commentMessage__content{
+	width: 100%;
+
+}
+
+.commentMessage__top{
 	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.commentMessage__bottom{
 
 }
 
 .commentMessage__authorName{
-
+	white-space: nowrap;
 }
 
 .commentMessage__comment{
 	width: 100%;
+	margin-left: 5px; 
 }
 
 .commentMessage__links{
@@ -93,9 +118,8 @@ img.mainImage{
 
 .commentResponse{
 	display: flex;
-	height: 40px;
-	outline: solid 1px grey;
-
+	height: 28px;
+	padding: 6px 12px;
 }
 
 .commentResponse input{
@@ -109,7 +133,7 @@ img.mainImage{
 	justify-content: space-between;
 	align-items: center;
 	height: 28px;
-	outline: solid 1px grey;
+	padding: 0 15px;
 }
 
 .commentViews{
